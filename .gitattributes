@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Whitelist specific file types
+mods filter=keep
+shaderpacks filter=keep
+resourcepacks filter=keep
+config filter=keep
+
+# Negate pattern to exclude everything by default
+* !.gitattributes
